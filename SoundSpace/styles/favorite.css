@@ -1,0 +1,87 @@
+main {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: url('https://wallpapers.com/images/hd/music-notes-background-094jpwqvx4x923th.jpg') no-repeat center;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #bb86fc;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+#favorite-container {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+
+
+.card {
+  background: #2c2f48;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 12px #bb86fc;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px #bb86fc;
+}
+
+.card iframe {
+  width: 100%;
+  height: 180px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+button.favorite {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.favorite:hover {
+  background-color: #e03d3d;
+}
+
+#favorite-container p {
+  color: #cccccc;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.farafavorite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px #bb86fc;
+}

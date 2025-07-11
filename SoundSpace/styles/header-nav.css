@@ -1,0 +1,23 @@
+header {
+  background-color: #1e1e1e;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #bb86fc;
+}

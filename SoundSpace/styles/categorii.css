@@ -1,0 +1,90 @@
+main {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: url('https://wallpapers.com/images/hd/music-notes-background-094jpwqvx4x923th.jpg') no-repeat center;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #bb86fc;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+.categorie {
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.categorie h2 {
+  margin-bottom: 1rem;
+  color: #bb86fc;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+.playlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #252545;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px #bb86fc;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px #bb86fc;
+}
+
+.card iframe {
+  width: 100%;
+  height: 180px;
+  border: none;
+}
+
+.favorite {
+  margin-top: 0.8rem;
+  background: linear-gradient(90deg, #bb86fc, #7c4dff);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favorite:hover {
+  background: linear-gradient(90deg, #9e69ff, #5e35b1);
+}
+
+.play {
+  background: linear-gradient(90deg, #bb86fc, #7c4dff);
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.play:hover {
+  background: linear-gradient(90deg, #9e69ff, #5e35b1);
+}
